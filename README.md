@@ -20,12 +20,8 @@ npm install
 
 # Running the App
 npm run dev
-This starts the Vite dev server. Open http://localhost:5173 in your browser.
 
-Building for Production
-bash
-npm run build
-npm run preview
+This starts the Vite dev server. Open http://localhost:5173 in your browser.
 
 ## Components
 - Header  
@@ -48,7 +44,7 @@ Each post shows title, author, preview, and date.
 
 - withLogger HOC  
 Higher-Order Component that logs when a component mounts and unmounts.
-Applied to PostList for demonstration.
+It has been applied to PostList for demonstration.
 
 - App  
 Root component that integrates Header and PostList.
@@ -87,7 +83,7 @@ TypeScript typing: Ensuring posts had clear types for maintainability.
 - Solution: Defined a PostType interface and reused it across components.
 
 ## External Libraries
-styled-components → CSS-in-JS styling.
+styled-components - CSS-in-JS styling.
 
 Type definitions: @types/react, @types/react-dom, @types/styled-components.
 
